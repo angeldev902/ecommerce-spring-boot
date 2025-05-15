@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: server-spring-boot
+  profiles:
+    active: development  # Perfil por defecto (cambiar en producción)

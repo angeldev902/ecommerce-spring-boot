@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springstore
+    username: postgres
+    password: angel
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  web:
+    resources:
+      static-locations: classpath:/static/, file:/opt/uploads/
+      chain:
+        enabled: true
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: 8081
+
+
+dollar-api:
+  dollarUrl: https://v6.exchangerate-api.com
+  dollarKey: MY-KEY
+
+jwt:
+  secret: 235security3656fgsfdgs2543253425634255342sahsvaghsagsca435624356243562435624365243562454
+  expiration: 86400000 # 1 día en milisegundos
+
+
