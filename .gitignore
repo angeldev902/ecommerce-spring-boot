@@ -37,4 +37,6 @@ build/
 ### Production config
 src/main/resources/application-production.yml
 
+src/main/resources/static/
+
 main-notes.md
